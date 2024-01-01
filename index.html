@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecipEase</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h1 class="brand">RecipEase</h1>
+        <form>
+          <input type="text" placeholder="Enter an ingredient..." />
+          <ion-icon name="search-outline"></ion-icon>
+        </form>
+        </div>
+        <div class="dietary-options">
+        <p>Choose a dietary requirement:</p>
+        <input type="radio" id="vegan" name="diet" value="vegan"><label for="vegan">Vegan</label>
+        <input type="radio" id="vegetarian" name="diet" value="vegetarian"><label for="vegetarian">Vegetarian</label>
+        <input type="radio" id="gf" name="diet" value="gf"><label for="gf">Gluten free</label>
+        <input type="radio" id="df" name="diet" value="df"><label for="df">Dairy free</label>
+      </div>
+      <div class="meal-options">
+        <p>Choose a meal type:</p>
+        <input type="radio" id="breakfast" name="meal" value="vegan"><label for="vegan">Breakfast</label>
+        <input type="radio" id="lunch" name="meal" value="lunch"><label for="lunch">Lunch</label>
+        <input type="radio" id="dinner" name="meal" value="dinner"><label for="dinner">Dinner</label>
+        <input type="radio" id="snack" name="meal" value="snack"><label for="snack">Snack</label>
+      </div>
+      <div class="search-result">
+      </div>
+    </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./script.js"></script>
+  </body>
+</html>
